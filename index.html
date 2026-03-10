@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sam By Glam | Hair Artistry</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <img src="images/logo.png" alt="Sam By Glam" class="loader-logo-img" />
+      <p class="loader-text">Loading...</p>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="Sam By Glam" class="nav-logo-img" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#gallery">
+            1515 N Town E Blvd Ste. 228, Mesquite, TX 75150</a
+          >
+        </li>
+        <li><a href="#book" class="nav-cta-maps">Open Maps</a></li>
+        <li><a href="#book" class="nav-cta">Book An Appointment!</a></li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#featured">Services</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#book">Book Now</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-bg">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <div class="hero-orb orb-4"></div>
+        <div class="hero-orb orb-5"></div>
+      </div>
+      <div class="hero-logo-wrap">
+        <img src="images/logo.png" alt="Sam By Glam" class="hero-logo" />
+      </div>
+      <div class="hero-mobile-cta">
+        <p class="hero-mobile-location">
+          1515 N Town E Blvd Ste. 228, Mesquite, TX 75150
+        </p>
+        <div class="hero-mobile-btns">
+          <a
+            href="https://maps.apple.com/?q=1515+N+Town+E+Blvd+Ste.+228,+Mesquite,+TX+75150"
+            target="_blank"
+            rel="noopener"
+            class="btn-outline magnetic"
+            >Open Maps</a
+          >
+          <a href="#book" class="btn-primary magnetic">Make an appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Ticker -->
+    <div class="marquee-section red">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <section id="stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-count="8">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="500">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="1200">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Transformations</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Awards Won</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <!-- To replace dummy images: change the style on .gallery-img to
+       background-image: url('images/your-photo.jpg'); background-size: cover; background-position: center; -->
+    <section id="gallery">
+      <div class="gallery-header" data-animate>
+        <p class="section-eyebrow">Gallery</p>
+        <h2 class="section-title">My Works</h2>
+      </div>
+
+      <div class="gallery-scroll-container">
+        <div class="gallery-scroll-row" id="scrollRow1">
+          <div class="gallery-scroll-track" id="scrollTrack1">
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/1.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 1</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/2.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 2</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/3.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 3</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/4.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 4</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/5.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 5</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/6.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 6</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/7.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 7</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/8.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 8</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/9.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 9</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/10.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 10</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/11.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 11</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/12.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 12</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/13.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 13</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/14.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 14</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/15.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 15</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/16.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 16</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/17.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 17</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/18.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 18</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/19.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 19</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/20.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 20</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/21.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 21</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/22.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 22</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/23.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 23</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/24.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 24</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/25.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 25</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/26.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 26</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/27.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 27</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/28.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 28</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/29.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 29</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/30.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 30</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/31.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 31</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/32.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 32</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/33.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 33</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/34.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 34</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/35.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 35</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/36.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 36</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/37.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 37</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/38.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 38</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/39.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 39</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/40.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 40</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/41.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 41</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/42.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 42</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/43.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 43</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/44.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 44</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/45.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 45</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/46.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 46</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/47.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 47</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/48.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 48</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/49.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 49</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/50.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 50</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/51.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 51</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/52.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 52</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/53.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 53</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/54.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 54</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/55.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 55</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/56.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 56</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/57.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 57</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/58.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 58</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/59.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 59</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/60.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 60</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/61.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 61</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/62.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 62</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/63.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 63</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/64.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 64</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/65.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 65</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/66.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 66</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/67.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 67</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/68.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 68</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div
+                class="gallery-img"
+                style="background-image: url('images/69.jpeg'); background-size: cover; background-position: center;"
+              ></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 69</h3>
+                  <p>Sam By Glam</p>
+                </div>
+                <button class="gallery-view-btn">View →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reverse Marquee -->
+    <div class="marquee-section reverse">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>SAM BY GLAM</span><span class="dot">★</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services & Pricing -->
+    <section id="featured">
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">MENU</p>
+        <h2 class="section-title">Services & Pricing</h2>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Haircut</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Women's Haircut</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$35+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Styling</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Blowout</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$45+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Color</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Root Touch-Up</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$75+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Color</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">All Over Color</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$95+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Color</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Highlights</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$150+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Color</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Full Bleach Service</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$180+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Color</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Partials</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$120+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Texture</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Perms</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$85+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Styling</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Updos</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$85+</span>
+            </div>
+          </div>
+        </article>
+        <article class="service-card" data-animate>
+          <div
+            class="service-img"
+            style="
+              background: linear-gradient(
+                175deg,
+                #1a0800 0%,
+                #5c2d00 35%,
+                #c47820 68%,
+                #f0d080 100%
+              );
+            "
+          >
+            <span class="service-badge">Haircut</span>
+          </div>
+          <div class="service-body">
+            <h3 class="service-name">Men's Haircut</h3>
+            <div class="service-price">
+              <span class="price-label">from</span
+              ><span class="price-amount">$20+</span>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="services-note" data-animate>
+        All prices are starting rates &mdash; final quote confirmed after
+        consultation.
+      </p>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Kind Words</p>
+        <h2 class="section-title">Client Love</h2>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials-track">
+          <div class="testimonial-card active">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Sam completely transformed my hair. I came in with damaged,
+              over-processed color and left with the most beautiful balayage
+              I've ever had. She truly is an artist."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #c9a84c, #8b6914)"
+              ></div>
+              <div class="author-info">
+                <strong>Jessica M.</strong><span>Balayage Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "I've been to many stylists over the years but Sam is on a
+              completely different level. My wedding hair was exactly what I
+              dreamed of — she even cried a little with me when she was done!"
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #f0e6d3, #c9a880)"
+              ></div>
+              <div class="author-info">
+                <strong>Priya K.</strong><span>Bridal Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "The attention to detail and the way Sam communicates throughout
+              the process makes you feel so at ease. The results always exceed
+              my expectations, every single visit."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #8b0000, #cc2200)"
+              ></div>
+              <div class="author-info">
+                <strong>Alicia T.</strong><span>Regular Client · 3 Years</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "I was nervous about going silver — I'm only 32! But Sam's vision
+              and expertise made it the best decision I ever made. The
+              compliments I get daily are endless."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #9e9e9e, #e0e0e0)"
+              ></div>
+              <div class="author-info">
+                <strong>Rachel B.</strong><span>Color Client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="t-prev" id="tPrev" aria-label="Previous">←</button>
+          <div class="t-dots" id="tDots"></div>
+          <button class="t-next" id="tNext" aria-label="Next">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Book Section -->
+    <section id="book">
+      <div class="book-content" data-animate>
+        <p class="section-eyebrow">Ready?</p>
+        <h2 class="book-title">
+          Let's Create<br /><em>Something Beautiful</em>
+        </h2>
+        <p class="book-subtitle">
+          Every transformation begins with a conversation. Book your
+          consultation today.
+        </p>
+        <div class="book-actions">
+          <a href="mailto:sam@sambyglam.com" class="btn-primary large magnetic"
+            >Book a Session</a
+          >
+          <a href="tel:+1234567890" class="btn-ghost large magnetic">Call Us</a>
+        </div>
+        <div class="book-info">
+          <div class="info-item">
+            <span>1515 N Town E Blvd Ste. 228, Mesquite, TX 75150</span>
+          </div>
+          <div class="info-item">
+            <span>Mon – Sat: 9am – 7pm</span>
+          </div>
+          <div class="info-item">
+            <span>Instagram @ glamedbysam_</span>
+          </div>
+        </div>
+      </div>
+      <div class="book-map">
+        <iframe
+          src="https://maps.google.com/maps?q=1515+N+Town+E+Blvd+Ste+228+Mesquite+TX+75150&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Sam By Glam location"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img
+            src="images/logo.png"
+            alt="Sam By Glam"
+            class="footer-logo-img"
+          />
+        </div>
+        <nav class="footer-nav">
+          <a href="#gallery">Gallery</a>
+          <a href="#featured">Services</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#book">Book</a>
+        </nav>
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/glamedbysam_"
+            target="_blank"
+            rel="noopener"
+            class="social-link social-ig"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            Follow me on Instagram
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sam By Glam. All rights reserved.</p>
+        <p>Crafted with passion for hair artistry.</p>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+        ✕
+      </button>
+      <div class="lightbox-content">
+        <div class="lightbox-img" id="lightboxImg"></div>
+        <div class="lightbox-info">
+          <span id="lightboxTag"></span>
+          <h3 id="lightboxTitle"></h3>
+          <p id="lightboxDesc"></p>
+        </div>
+      </div>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">
+        ←
+      </button>
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next">
+        →
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
