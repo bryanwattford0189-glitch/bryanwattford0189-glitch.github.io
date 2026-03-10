@@ -655,7 +655,7 @@ section {
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   max-width: 860px;
   margin: 0 auto;
@@ -1535,7 +1535,7 @@ section {
     height: 356px;
   }
   .stats-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   .services-grid {
@@ -1647,7 +1647,7 @@ section {
     padding: 30px 20px;
   }
   .stats-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 0;
   }
   .stat-number {
