@@ -470,7 +470,7 @@ section {
   justify-content: center;
   width: 100%;
   opacity: 0;
-  animation: logoReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) 2.4s forwards;
+  animation: logoReveal 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.8s forwards;
 }
 .hero-logo {
   width: 40vw;
@@ -586,7 +586,7 @@ section {
   font-size: 0.85rem;
 }
 
-/* =========================================
+/* =========================== ==============
    MARQUEE
    ========================================= */
 .red {
@@ -1435,6 +1435,9 @@ section {
   }
 }
 @media (max-width: 1220px) {
+  #stats {
+    padding: 30px 5vw;
+  }
   .info-item {
     font-size: 1rem;
   }
@@ -1442,7 +1445,7 @@ section {
     justify-content: flex-end;
   }
   .hero-logo {
-    width: 80vw;
+    width: 60vw;
   }
   .orb-1 {
     width: 210px;

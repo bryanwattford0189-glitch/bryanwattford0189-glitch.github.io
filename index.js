@@ -6,12 +6,12 @@
 document.body.style.overflow = 'hidden';
 
 /* ---- Page Loader ---- */
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     const loader = document.getElementById('loader');
     loader.classList.add('hidden');
     document.body.style.overflow = '';
-  }, 2300);
+  }, 600);
 });
 
 /* ---- Custom Cursor ---- */
@@ -129,6 +129,23 @@ document.querySelectorAll('.marquee-track').forEach(track => {
       track.style.animationPlayState = 'running';
     });
   });
+});
+
+/* ---- Lazy Load gallery background images ---- */
+const lazyImgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      el.style.backgroundImage = `url('${el.dataset.bg}')`;
+      el.style.backgroundSize = 'cover';
+      el.style.backgroundPosition = 'center';
+      lazyImgObserver.unobserve(el);
+    }
+  });
+}, { rootMargin: '200px' });
+
+document.querySelectorAll('.gallery-img[data-bg]').forEach(el => {
+  lazyImgObserver.observe(el);
 });
 
 /* ---- Gallery Infinite Scroll: duplicate + measure exact offset ---- */
