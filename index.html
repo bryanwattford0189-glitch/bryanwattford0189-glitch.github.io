@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://glammedbysam.beauty/" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Glammed By Sam | Mesquite's Premier Hair Salon</title>
+    <meta
+      name="description"
+      content="Glammed By Sam is a luxury hair salon in Mesquite, TX specializing in natural hair, braids, color, and protective styles. Book your appointment today."
+    />
+    <meta
+      name="keywords"
+      content="hair salon Mesquite TX, hair stylist Mesquite, natural hair salon Mesquite, braids Mesquite TX, Glammed By Sam, hair salon near me, protective styles Dallas"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph (social sharing) -->
+    <meta
+      property="og:title"
+      content="Glammed By Sam | Mesquite's Premier Hair Salon"
+    />
+    <meta
+      property="og:description"
+      content="Luxury hair salon in Mesquite, TX specializing in natural hair, braids, color, and protective styles. Book your appointment today."
+    />
+    <meta property="og:url" content="https://glammedbysam.beauty/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://glammedbysam.beauty/images/logo.png"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Glammed By Sam | Mesquite's Premier Hair Salon"
+    />
+    <meta
+      name="twitter:description"
+      content="Luxury hair salon in Mesquite, TX specializing in natural hair, braids, color, and protective styles."
+    />
+    <meta
+      name="twitter:image"
+      content="https://glammedbysam.beauty/images/logo.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "Glammed By Sam",
+        "image": "https://glammedbysam.beauty/images/logo.png",
+        "url": "https://glammedbysam.beauty/",
+        "telephone": "+19726844209",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "1515 N Town E Blvd Ste. 228",
+          "addressLocality": "Mesquite",
+          "addressRegion": "TX",
+          "postalCode": "75150",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 32.7668,
+          "longitude": -96.5992
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "22:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Wednesday", "Sunday"],
+            "opens": "09:00",
+            "closes": "21:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "07:00",
+            "closes": "22:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/sambyglam"],
+        "priceRange": "$$",
+        "servesCuisine": null,
+        "hasMap": "https://maps.google.com/maps?q=1515+N+Town+E+Blvd+Ste+228+Mesquite+TX+75150"
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <img src="images/logo.png" alt="Glammed By Sam" class="loader-logo-img" />
+      <p class="loader-text">Loading...</p>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-logo">
+        <img src="images/logo.png" alt="Glammed By Sam" class="nav-logo-img" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#gallery">
+            1515 N Town E Blvd Ste. 228, Mesquite, TX 75150</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://glam-by-sam-109917.square.site/"
+            target="_blank"
+            rel="noopener"
+            class="nav-cta-maps"
+            >Open Maps</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://glam-by-sam-109917.square.site/"
+            target="_blank"
+            rel="noopener"
+            class="nav-cta"
+            >Book An Appointment!</a
+          >
+        </li>
+      </ul>
+      <button class="nav-menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#featured">Services</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#book">Book Now</a></li>
+      </ul>
+    </div>
+
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-bg">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <div class="hero-orb orb-4"></div>
+        <div class="hero-orb orb-5"></div>
+      </div>
+      <div class="hero-logo-wrap">
+        <img src="images/logo.png" alt="Glammed By Sam" class="hero-logo" />
+        <h1 class="hero-h1">Mesquite's Premier Hair Salon</h1>
+      </div>
+      <div class="hero-mobile-cta">
+        <p class="hero-mobile-location">
+          1515 N Town E Blvd Ste. 228, Mesquite, TX 75150
+        </p>
+        <div class="hero-mobile-btns">
+          <a
+            href="https://maps.apple.com/?q=1515+N+Town+E+Blvd+Ste.+228,+Mesquite,+TX+75150"
+            target="_blank"
+            rel="noopener"
+            class="btn-outline magnetic"
+            >Open Maps</a
+          >
+          <a href="#book" class="btn-primary magnetic">Make an appointment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Ticker -->
+    <div class="marquee-section red">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+          <span>GRAND OPENING!</span><span class="dot">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <section id="stats">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-count="3">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="300">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="300">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Transformations</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="gallery-header" data-animate>
+        <p class="section-eyebrow">Gallery</p>
+        <h2 class="section-title">Hair Styling Gallery</h2>
+      </div>
+
+      <div class="gallery-scroll-container">
+        <div class="gallery-scroll-row" id="scrollRow1">
+          <div class="gallery-scroll-track" id="scrollTrack1">
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/4.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 1</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/5.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 2</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/6.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 3</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/9.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 4</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/10.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 5</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/11.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 6</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/12.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 7</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/13.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 8</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/14.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 9</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/15.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 10</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/50.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 11</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/51.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 12</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/52.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 13</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/53.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 14</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/54.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 15</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/55.png"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 16</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/16.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 17</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/17.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 18</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/18.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 19</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/19.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 20</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/29.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 21</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/32.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 22</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/33.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 23</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/37.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 24</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/48.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 25</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+            <div class="gallery-scroll-item">
+              <div class="gallery-img" data-bg="images/49.jpeg"></div>
+              <div class="gallery-overlay">
+                <div class="gallery-info">
+                  <span class="gallery-tag">Gallery</span>
+                  <h3>Look 26</h3>
+                  <p>Glammed By Sam</p>
+                </div>
+                <button class="gallery-view-btn">View &rarr;</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reverse Marquee -->
+    <div class="marquee-section reverse">
+      <div class="marquee-track">
+        <div class="marquee-inner">
+          <span>SAM BY GLAM</span><span class="dot">★</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Book Section -->
+    <section id="book">
+      <div class="book-content" data-animate>
+        <p class="section-eyebrow">Ready?</p>
+        <h2 class="book-title">
+          Let's Create<br /><em>Something Beautiful</em>
+        </h2>
+        <p class="book-subtitle">
+          Every transformation begins with a conversation. Book your
+          consultation at our Mesquite, TX hair salon today.
+        </p>
+        <!-- Start Square Appointments Embed Code -->
+        <script src="https://square.site/appointments/buyer/widget/lhe0ybgyqr1mik/L928T09B1WASS.js"></script>
+        <!-- End Square Appointments Embed Code -->
+        <div class="book-actions">
+          <a href="tel: 972-684-4209" class="btn-primary large magnetic"
+            >Call or Text Me</a
+          >
+        </div>
+        <div class="book-info">
+          <div class="info-item">
+            <span>1515 N Town E Blvd Ste. 228, Mesquite, TX 75150</span>
+          </div>
+          <div class="info-item">
+            <span>Mon – Sat: 9am – 7pm</span>
+          </div>
+          <div class="info-item">
+            <span>Instagram @ glamedbysam_</span>
+          </div>
+        </div>
+      </div>
+      <div class="book-map">
+        <iframe
+          src="https://maps.google.com/maps?q=1515+N+Town+E+Blvd+Ste+228+Mesquite+TX+75150&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Glammed By Sam location"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="section-header" data-animate>
+        <p class="section-eyebrow">Kind Words</p>
+        <h2 class="section-title">Client Love</h2>
+      </div>
+      <div class="testimonials-wrapper">
+        <div class="testimonials-track">
+          <div class="testimonial-card active">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Sam completely transformed my hair. I came in with damaged,
+              over-processed color and left with the most beautiful balayage
+              I've ever had. She truly is an artist."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #c9a84c, #8b6914)"
+              ></div>
+              <div class="author-info">
+                <strong>Jessica M.</strong><span>Balayage Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "I've been to many stylists over the years but Sam is on a
+              completely different level. My wedding hair was exactly what I
+              dreamed of — she even cried a little with me when she was done!"
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #f0e6d3, #c9a880)"
+              ></div>
+              <div class="author-info">
+                <strong>Priya K.</strong><span>Bridal Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "The attention to detail and the way Sam communicates throughout
+              the process makes you feel so at ease. The results always exceed
+              my expectations, every single visit."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #8b0000, #cc2200)"
+              ></div>
+              <div class="author-info">
+                <strong>Alicia T.</strong><span>Regular Client · 3 Years</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "I was nervous about going silver — I'm only 32! But Sam's vision
+              and expertise made it the best decision I ever made. The
+              compliments I get daily are endless."
+            </p>
+            <div class="testimonial-author">
+              <div
+                class="author-avatar"
+                style="background: linear-gradient(135deg, #9e9e9e, #e0e0e0)"
+              ></div>
+              <div class="author-info">
+                <strong>Rachel B.</strong><span>Color Client</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-nav">
+          <button class="t-prev" id="tPrev" aria-label="Previous">←</button>
+          <div class="t-dots" id="tDots"></div>
+          <button class="t-next" id="tNext" aria-label="Next">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img
+            src="images/logo.png"
+            alt="Glammed By Sam"
+            class="footer-logo-img"
+          />
+        </div>
+        <nav class="footer-nav">
+          <a href="#gallery">Gallery</a>
+          <a href="#featured">Services</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#book">Book</a>
+        </nav>
+        <div class="footer-social">
+          <a
+            href="https://www.instagram.com/glamedbysam_"
+            target="_blank"
+            rel="noopener"
+            class="social-link social-ig"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+            Follow me on Instagram
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Glammed By Sam. All rights reserved.</p>
+        <p>Crafted with passion for hair artistry.</p>
+      </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+        ✕
+      </button>
+      <div class="lightbox-content">
+        <div class="lightbox-img" id="lightboxImg"></div>
+        <div class="lightbox-info">
+          <span id="lightboxTag"></span>
+          <h3 id="lightboxTitle"></h3>
+          <p id="lightboxDesc"></p>
+        </div>
+      </div>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">
+        ←
+      </button>
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next">
+        →
+      </button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
