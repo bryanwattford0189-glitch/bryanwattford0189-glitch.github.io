@@ -113,6 +113,20 @@ const statObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.stat-item').forEach(el => statObserver.observe(el));
 
+/* ---- Lazy-load gallery background images via data-bg ---- */
+const bgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const el = entry.target;
+      const bg = el.dataset.bg;
+      if (bg) el.style.backgroundImage = `url('${bg}')`;
+      bgObserver.unobserve(el);
+    }
+  });
+}, { rootMargin: '200px' });
+
+document.querySelectorAll('[data-bg]').forEach(el => bgObserver.observe(el));
+
 /* ---- Marquee: clone enough copies to fill screen, animate by one copy width ---- */
 document.querySelectorAll('.marquee-track').forEach(track => {
   const inner = track.querySelector('.marquee-inner');
