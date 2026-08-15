@@ -2,16 +2,13 @@
    SAM BY GLAM — JAVASCRIPT
    ========================================= */
 
-/* ---- Block scroll during load ---- */
-document.body.style.overflow = 'hidden';
-
 /* ---- Page Loader ---- */
 window.addEventListener('load', () => {
   setTimeout(() => {
     const loader = document.getElementById('loader');
     loader.classList.add('hidden');
     document.body.style.overflow = '';
-  }, 2300);
+  }, 800);
 });
 
 /* ---- Custom Cursor ---- */
